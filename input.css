@@ -4,18 +4,23 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
-.list:hover button{
-    @apply opacity-100
+
+.list:hover button {
+  @apply opacity-100;
 }
+
 .green {
-  @apply my-5 relative shadow-xl border-l-4 border-green-700 px-4 py-2 flex  justify-between cursor-pointer
+  @apply my-5 relative shadow-xl border-l-4 border-green-700 px-4 py-2 flex justify-between cursor-pointer;
 }
+
 .red {
-  @apply my-5 relative shadow-xl border-l-4 border-red-600 px-4 py-2 flex  justify-between cursor-pointer
+  @apply my-5 relative shadow-xl border-l-4 border-red-600 px-4 py-2 flex justify-between cursor-pointer;
 }
+
 .btn {
-  @apply opacity-0 bg-red-600 px-1 text-xs text-white rounded-full absolute -top-2 -right-2 cursor-pointer
+  @apply opacity-0 bg-red-600 px-1 text-xs text-white rounded-full absolute -top-2 -right-2 cursor-pointer;
 }
+
 #trans::-webkit-scrollbar {
   width: 6px;
 }
@@ -25,10 +30,10 @@ body {
 }
 
 #trans::-webkit-scrollbar-thumb {
-  background: #94a3b8;   /* slate-400 */
+  background: #94a3b8;
   border-radius: 10px;
 }
 
 #trans::-webkit-scrollbar-thumb:hover {
-  background: #64748b;   /* slate-500 */
+  background: #64748b;
 }

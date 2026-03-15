@@ -93,7 +93,7 @@ function config() {
 window.addEventListener("load", function () {
   config();
 })
-
+window.removetrans = removetrans;
 function updateLocalStorage() {
   localStorage.setItem("Transaction_Details", JSON.stringify(transactions));
 }
